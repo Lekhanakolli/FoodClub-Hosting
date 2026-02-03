@@ -1,0 +1,181 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: Arial, sans-serif;
+}
+
+
+/* HEADER */
+.header {
+    background-color: darkorange;
+    color: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header nav a{
+    color: azure;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO */
+.hero {
+    background: blue;
+    height: 300px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: olive;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+
+/* SECTIONS */
+.section {
+    padding: 60px 40px;
+}
+
+.section title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* DIFFERENT BACKGROUNDS */
+.starters-bg {
+    background: lightblue;
+}
+.food-bg{
+    background: lightgreen;
+}
+.dessert-bg {
+    background: lightpink;
+}
+
+/* CARD CONTAINER */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background-color: azure;
+    width: 30%;
+    padding: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1 );
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* CARD HOVER EFFECT */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* IMAGE ZOOM ON HOVER */ 
+.card img {
+    transition: transform o.3s ease;
+} 
+.card:hover img {
+    transform: scale(1.05);
+}
+/* CARD IMAGE */
+.card img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* CARD TEXT */
+.card p {
+    font-size: 20px;
+    margin-bottom: 15px 0;
+}
+
+/* PRICE */
+.card span {
+    background-color: #e85d04;
+    color: beige;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* ABOUT*/
+.about {
+    padding: 60px;
+    background: lightseagreen;
+    text-align: center;
+}
+.about h2 {
+    color: #0d47a1;
+    font-size: 15px;
+}
+.about p{
+    color: #333;
+    font-size: 18px;
+}
+
+/* contact */
+.contact {
+    background: lightsalmon;
+    padding: 60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact h2{
+    color: #0d47a1;
+    font-size: 18px;
+}
+.contact p{
+    color: #333;
+    font-size: 18px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #222;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
